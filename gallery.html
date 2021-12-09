@@ -15,6 +15,21 @@
       rel="stylesheet"
     />
     <title>Jasmine Wang - Gallery</title>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-214855655-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-214855655-1");
+    </script>
   </head>
   <body>
     <a class="skip" href="#main">Skip to Main Content</a>
@@ -28,7 +43,9 @@
         <ul class="nav_links">
           <li class="nav_item"><a href="about.html">About</a></li>
           <li class="nav_item"><a href="skills.html">Skills</a></li>
-          <li class="nav_item"><a class="active" href="gallery.html">Gallery</a></li>
+          <li class="nav_item">
+            <a class="active" href="gallery.html">Gallery</a>
+          </li>
           <li class="nav_item"><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
@@ -37,46 +54,48 @@
     <main id="main">
       <h1>Image Gallery</h1>
       <p>
-        Here are some pictures I took myself and of my friends and I throughout the years!
+        Here are some pictures I took myself and of my friends and I throughout
+        the years!
       </p>
 
       <p>
-        I don't typically like photos so unfortunately there's not too many to showcase.
-        Most of the ones displayed here are from high school because my friend likes to take photos.
-        You can see pictures from graduation, prom, Science Olympiad, and our escape room victories which
-        is something I absolutely love doing.
+        I don't typically like photos so unfortunately there's not too many to
+        showcase. Most of the ones displayed here are from high school because
+        my friend likes to take photos. You can see pictures from graduation,
+        prom, Science Olympiad, and our escape room victories which is something
+        I absolutely love doing.
       </p>
 
       <div class="image-gallery">
         <div class="image-box">
-          <img src="images/grad.JPG" alt="graduation"/>
+          <img src="images/grad.JPG" alt="graduation" />
         </div>
         <div class="image-box">
-          <img src="images/heart.JPG" alt="heart before prom"/>
+          <img src="images/heart.JPG" alt="heart before prom" />
         </div>
         <div class="image-box">
-          <img src="images/so.JPG" alt="science olympiad group picture"/>
+          <img src="images/so.JPG" alt="science olympiad group picture" />
         </div>
         <div class="image-box">
-          <img src="images/so_heart.jpg" alt="science olympiad heart"/>
+          <img src="images/so_heart.jpg" alt="science olympiad heart" />
         </div>
         <div class="image-box">
-          <img src="images/victory.JPG" alt="escaping an escape room"/>
+          <img src="images/victory.JPG" alt="escaping an escape room" />
         </div>
         <div class="image-box">
-          <img src="images/goat.JPG" alt="goat in China"/>
+          <img src="images/goat.JPG" alt="goat in China" />
         </div>
         <div class="image-box">
-          <img src="images/event.JPG" alt="monster mash event"/>
+          <img src="images/event.JPG" alt="monster mash event" />
         </div>
         <div class="image-box">
-          <img src="images/flower.JPG" alt="prom flower"/>
+          <img src="images/flower.JPG" alt="prom flower" />
         </div>
         <div class="image-box">
-          <img src="images/escape.JPG" alt="group picture at escape room"/>
+          <img src="images/escape.JPG" alt="group picture at escape room" />
         </div>
         <div class="image-box">
-          <img src="images/geecs.JPG" alt="GEECS"/>
+          <img src="images/geecs.JPG" alt="GEECS" />
         </div>
       </div>
     </main>
