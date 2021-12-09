@@ -7,7 +7,6 @@ body {
 
 header {
   display: flex;
-  /* justify-content: space-between; */
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -161,11 +160,6 @@ footer {
     padding: 10px;
 }
 
-.about_me text {
-    width: 500px;
-    height: 500px;
-}
-
 .interests {
     display: flex;
     flex-wrap: wrap;
@@ -294,7 +288,6 @@ a.skip:focus{
 /* Tablet View */
 @media screen and (min-width: 768px) {
   header {
-    display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
@@ -302,13 +295,10 @@ a.skip:focus{
   #nav-brand {
     justify-content: start;
     margin-left: 20px;
-    align-items: center;
   }
 
   .nav_links {
-    display: flex;
     flex-direction: row;
-    align-items: center;
   }
 
   .nav_item {
