@@ -344,7 +344,7 @@ a.skip:focus{
 }
 
 /* Do an horizontal flip when you move the mouse over the flip box container */
-.flip-card:hover .flip-card-inner {
+.flip-card:hover .flip-card-inner, .flip-card:active .flip-card-inner, .flip-card:focus .flip-card-inner, .flip-card:focus-within .flip-card-inner {
   transform: rotateY(180deg);
 }
 
@@ -370,7 +370,8 @@ a.skip:focus{
   align-items: center;
   
   background: rgba(131, 205, 255, 0.233);
-  color: rgb(68, 68, 68);
+  color: rgb(53, 53, 53);
+  line-height: 1.5;
   padding: 10px 20px;
 
   transform: rotateY(180deg);
