@@ -369,6 +369,12 @@ button {
     animation: none;
   }
 
+  /*Turn off transition*/
+  a.skip {
+    -webkit-transition: initial; /* sets to default setting */
+    transition: initial; /* sets to default setting */
+  }
+
   /*Turn off parallax*/
   .parallax {
     background-attachment: initial;
