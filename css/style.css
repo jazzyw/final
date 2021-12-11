@@ -7,7 +7,7 @@ body {
 
 *:focus {
   border: 3px solid blue;
-  padding: 5px;
+  padding: 2px;
 }
 
 /* HEADING & PARAGRAPH STYLING */
