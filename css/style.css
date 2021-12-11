@@ -5,6 +5,11 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+*:focus {
+  border: 3px solid blue;
+  padding: 5px;
+}
+
 /* HEADING & PARAGRAPH STYLING */
 h1 {
   text-align: center;
